@@ -5,11 +5,12 @@ import flower from './assets/flower.svg';
 import './App.css'
 
 function App() {
+
   // const [count, setCount] = useState(0)
 
   return (
     <>
-    <div className='card1'>
+    <div className='cardMain'>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -19,10 +20,14 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <div className="card1">
+      <div onClick={()=>window.open('https://main.d1294rbaaroizz.amplifyapp.com/')} 
+      className="card1"
+        title="Navigate to Application 1 in AWS">
         <div className="appName1">React Application 1</div>
-        <div>
-        <a target="_blank" href="https://main.d1294rbaaroizz.amplifyapp.com/">Hosted on AWS</a>
+        <div className='link' title="Navigate to React Application 1 in AWS">
+   
+        Hosted on AWS
+   
          </div>
       </div>
       <p className="read-the-docs">

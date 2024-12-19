@@ -39,7 +39,15 @@
   border:solid 1px silver;
   border-radius:6px;
   padding: 2em;
-  /* box-shadow: 2px 3px 6px 1px silver; */
+  cursor: pointer;
+}
+
+.cardMain {
+  margin:10px;
+  max-width: 400px;
+  border:solid 1px silver;
+  border-radius:6px;
+  padding: 2em;
 }
 
 
@@ -47,10 +55,7 @@
   color: #888;
 }
 
-.card1 a:link, .card1 a:visited {
-  color: blue;
-  text-decoration: underline;
-  font-size: 18px;
+.card1 div {
   font-weight: bold;
 }
 
@@ -62,4 +67,10 @@
   font-size:22px;
   color:blueviolet;
   font-weight: bold;
+}
+
+.link {
+  font-size: 18px;
+  color:blue;
+  text-decoration: underline;
 }
